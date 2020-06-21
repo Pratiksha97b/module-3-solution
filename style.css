@@ -1,0 +1,188 @@
+    /* START HEADER*/
+body {
+	font-size: 16px;
+	color: rgb(255, 255, 255);
+	font-family: 'Oxygen', sans-serif;
+  }
+  /** HEADER **/
+  #header-nav {
+    background-color: rgb(166, 217, 245);
+  	border-radius: 0;
+    border: 0;
+  }
+  #nav-list{
+      text-align: center;
+      font-size: 20px;
+      color: #000;  
+      background-color: rgb(255, 188, 201);
+      margin-top: 0;
+      margin-bottom: 0;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+    }
+  
+ .navbar-header{
+    padding-top: 5px;
+    font-size: 4vw; 
+    padding-left:10px;
+    
+ }
+ .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #0e0863;
+  }
+
+ /**HEADING OF PAGE**/
+ #heading{
+     color: #000;
+     font: 9vh;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     padding-bottom: 10px;
+ }
+
+ /**CONTAINER**/
+ .containers{
+     color: #000;
+     border: none;
+	  margin-left: 0;
+  	margin-right: 0;
+  	margin-top: 10px;
+  	margin-bottom: 0px;
+ }
+ .container {
+  color: #000;
+  border: none;
+  width: 95%;
+ height: 100%;
+ margin-left: 2%;
+ margin-right: 2%;
+ margin-top: 10px;
+ margin-bottom: 20px;
+ position: relative;
+
+}
+section {
+
+background-color: #eec0c0;
+width: 100%;
+height: 100%;
+font-family: Helvetica;
+color: black;
+position: relative;
+overflow: auto;
+padding: 10px;
+}
+
+#chicken {
+    text-align: center;
+    font-size: 5vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#beef {
+    text-align: center;
+    font-size: 5vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#sushi {
+    text-align: center;
+    font-size: 5vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.row {
+	width: 100%;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+	
+  }
+
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+
+}
+
+
+/********** SMALL devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    color: #000;
+    border: none;
+    width: 90%;
+  height: 100%;
+   margin-left: 4%;
+   margin-right: 4%;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   position: relative;
+  
+}
+section {
+  
+  background-color: #eec0c0;
+  width: 100%;
+  height: 100%;
+  font-family: Helvetica;
+  color: black;
+  position: relative;
+  overflow: auto;
+  padding: 10px;
+}
+}
+
+
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+    .navbar-header{
+        padding-top: 5px;
+        padding-left: 5%;
+        font-size: 6vw; 
+     }
+    .container{
+      color: #000;
+      border: none;
+      width: 85%;
+    height: 100%;
+     margin-left: 7%;
+     margin-right: 7%;
+     margin-top: 10px;
+     margin-bottom: 20px;
+     position: relative;
+    
+  }
+  section {
+    
+    background-color: #eec0c0;
+    width: 100%;
+    height: 100%;
+    font-family: Helvetica;
+    color: black;
+    position: relative;
+    overflow: auto;
+    padding: 10px;
+  }
+   
+}
+
+  /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+  @media (max-width: 479px) {
+
+
+  }
+
+
+
+
+
+    
+    
+    
+    
